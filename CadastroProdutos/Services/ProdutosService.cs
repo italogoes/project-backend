@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace CadastroProdutos.Services;
 
-public class ProdutosService
+public class ProdutosService : IProdutosService
 {
     private static List<Produto> produtos = new List<Produto>()
     {
